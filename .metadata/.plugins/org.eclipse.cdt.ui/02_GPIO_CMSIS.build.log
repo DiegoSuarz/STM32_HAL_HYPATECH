@@ -1,0 +1,12 @@
+17:58:29 **** Build of configuration Debug for project 02_GPIO_CMSIS ****
+make -j2 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f401retx.d" -MT"Core/Startup/startup_stm32f401retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f401retx.o" "../Core/Startup/startup_stm32f401retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F401xE -DSTM32 -DSTM32F401RETx -DSTM32F4 -c -I"F:/OneDrive - Universidad Tecnologica del Peru/Estudios/Cursos/Microcontroladores/STM32/STM32 ESPECIALIZACIÓN ARM UMAKER/codigo/02_GPIO_CMSIS/Drivers/CMSIS/Device/Include" -I"F:/OneDrive - Universidad Tecnologica del Peru/Estudios/Cursos/Microcontroladores/STM32/STM32 ESPECIALIZACIÓN ARM UMAKER/codigo/02_GPIO_CMSIS/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+cc1.exe: error: F:/OneDrive - Universidad Tecnologica del Peru/Estudios/Cursos/Microcontroladores/STM32/STM32 ESPECIALIZACI??N ARM UMAKER/codigo/02_GPIO_CMSIS/Drivers/CMSIS/Device/Include: Invalid argument
+cc1.exe: error: F:/OneDrive - Universidad Tecnologica del Peru/Estudios/Cursos/Microcontroladores/STM32/STM32 ESPECIALIZACI??N ARM UMAKER/codigo/02_GPIO_CMSIS/Drivers/CMSIS/Include: Invalid argument
+make: *** [Core/Src/subdir.mk:28: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j2 all" terminated with exit code 2. Build might be incomplete.
+
+17:58:30 Build Failed. 2 errors, 0 warnings. (took 581ms)
+
