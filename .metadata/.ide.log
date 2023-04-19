@@ -31309,3 +31309,10 @@ java.io.FileNotFoundException: F:\OneDrive - Universidad Tecnologica del Peru\Es
 2023-04-18 19:51:50,882 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2023-04-18 19:51:50,882 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
 2023-04-18 19:51:50,882 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-04-18 20:23:15,332 [INFO] Activator:179 - 
+
+
+2023-04-18 20:23:15,332 [INFO] Activator:180 - !SESSION log4j initialized
+2023-04-18 20:23:48,202 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-04-18 20:23:48,202 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-04-18 20:23:48,218 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
