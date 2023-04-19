@@ -1,0 +1,10 @@
+17:38:12 **** Build of configuration Debug for project 04.4_TIMER_COUNTER_ETR1_T12FP2 ****
+make -j2 all 
+arm-none-eabi-size   04.4_TIMER_COUNTER_ETR1_T12FP2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12240	    120	   1680	  14040	   36d8	04.4_TIMER_COUNTER_ETR1_T12FP2.elf
+Finished building: default.size.stdout
+ 
+
+17:38:14 Build Finished. 0 errors, 0 warnings. (took 2s.380ms)
+

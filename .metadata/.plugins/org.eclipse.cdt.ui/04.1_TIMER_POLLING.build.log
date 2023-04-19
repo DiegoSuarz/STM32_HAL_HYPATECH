@@ -1,0 +1,10 @@
+17:38:05 **** Build of configuration Debug for project 04.1_TIMER_POLLING ****
+make -j2 all 
+arm-none-eabi-size   04.1_TIMER_POLLING.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8584	     20	   1708	  10312	   2848	04.1_TIMER_POLLING.elf
+Finished building: default.size.stdout
+ 
+
+17:38:07 Build Finished. 0 errors, 0 warnings. (took 1s.868ms)
+

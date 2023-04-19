@@ -1,0 +1,10 @@
+17:39:10 **** Build of configuration Debug for project 12_RCC ****
+make -j2 all 
+arm-none-eabi-size   12_RCC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5944	     20	   1572	   7536	   1d70	12_RCC.elf
+Finished building: default.size.stdout
+ 
+
+17:39:11 Build Finished. 0 errors, 0 warnings. (took 1s.654ms)
+

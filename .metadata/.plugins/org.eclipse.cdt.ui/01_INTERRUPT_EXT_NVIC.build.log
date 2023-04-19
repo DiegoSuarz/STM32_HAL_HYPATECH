@@ -1,0 +1,10 @@
+17:37:59 **** Build of configuration Debug for project 01_INTERRUPT_EXT_NVIC ****
+make -j2 all 
+arm-none-eabi-size   01_INTERRUPT_EXT_NVIC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6316	     20	   1572	   7908	   1ee4	01_INTERRUPT_EXT_NVIC.elf
+Finished building: default.size.stdout
+ 
+
+17:38:00 Build Finished. 0 errors, 0 warnings. (took 1s.165ms)
+

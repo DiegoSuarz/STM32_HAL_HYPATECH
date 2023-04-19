@@ -1,0 +1,10 @@
+17:38:04 **** Build of configuration Debug for project 03_ENCODER_LCD ****
+make -j2 all 
+arm-none-eabi-size   03_ENCODER_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9492	    120	   1616	  11228	   2bdc	03_ENCODER_LCD.elf
+Finished building: default.size.stdout
+ 
+
+17:38:04 Build Finished. 0 errors, 0 warnings. (took 927ms)
+

@@ -1,0 +1,10 @@
+17:38:51 **** Build of configuration Debug for project 07.1_UART_POLLING ****
+make -j2 all 
+arm-none-eabi-size   07.1_UART_POLLING.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12192	    140	   1660	  13992	   36a8	07.1_UART_POLLING.elf
+Finished building: default.size.stdout
+ 
+
+17:38:52 Build Finished. 0 errors, 0 warnings. (took 1s.14ms)
+

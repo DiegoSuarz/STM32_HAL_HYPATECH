@@ -1,0 +1,10 @@
+17:39:01 **** Build of configuration Debug for project 10.1_I2C_PCF8574 ****
+make -j2 all 
+arm-none-eabi-size   10.1_I2C_PCF8574.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14968	    120	   1744	  16832	   41c0	10.1_I2C_PCF8574.elf
+Finished building: default.size.stdout
+ 
+
+17:39:03 Build Finished. 0 errors, 0 warnings. (took 1s.177ms)
+

@@ -1,0 +1,10 @@
+17:38:54 **** Build of configuration Debug for project 07.3_UART_DMA_RX ****
+make -j2 all 
+arm-none-eabi-size   07.3_UART_DMA_RX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13988	     24	   1832	  15844	   3de4	07.3_UART_DMA_RX.elf
+Finished building: default.size.stdout
+ 
+
+17:38:55 Build Finished. 0 errors, 0 warnings. (took 689ms)
+

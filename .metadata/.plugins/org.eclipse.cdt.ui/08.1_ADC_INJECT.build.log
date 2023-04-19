@@ -1,0 +1,10 @@
+17:38:56 **** Build of configuration Debug for project 08.1_ADC_INJECT ****
+make -j2 all 
+arm-none-eabi-size   08.1_ADC_INJECT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27364	    484	   1740	  29588	   7394	08.1_ADC_INJECT.elf
+Finished building: default.size.stdout
+ 
+
+17:38:57 Build Finished. 0 errors, 0 warnings. (took 992ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;04_TIMERS&apos; to &apos;04_TIMERS_TEMPORIZADOR&apos;" description="Rename resource &apos;04_TIMERS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/04_TIMERS" name="04_TIMERS_TEMPORIZADOR" stamp="1679956027714" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;9_SPI_TERMOCUPLE&apos; to &apos;09_SPI_TERMOCUPLE&apos;" description="Rename resource &apos;9_SPI_TERMOCUPLE&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/9_SPI_TERMOCUPLE" name="09_SPI_TERMOCUPLE" stamp="1680124199656" updateReferences="true"/>
+</session>

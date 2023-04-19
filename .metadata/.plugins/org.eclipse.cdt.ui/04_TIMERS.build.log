@@ -1,0 +1,10 @@
+20:17:18 **** Incremental Build of configuration Debug for project 04_TIMERS ****
+make -j2 all 
+arm-none-eabi-size   04_TIMERS.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9988	     20	   1708	  11716	   2dc4	04_TIMERS.elf
+Finished building: default.size.stdout
+ 
+
+20:17:19 Build Finished. 0 errors, 0 warnings. (took 492ms)
+

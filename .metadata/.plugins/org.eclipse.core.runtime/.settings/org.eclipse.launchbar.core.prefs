@@ -1,7 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:00_GPIO Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:00_GPIO Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_INTERRUPT_EXT_NVIC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.1_TIMER_POLLING Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04_TIMERS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07_USART Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:11_DMA Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07.1_UART_POLLING Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07.2_UART_INTERRUPT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07.3_UART_DMA_RX Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04_TIMERS_TEMPORIZADOR Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.4_TIMER_COUNTER_ETR1_T12FP2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.3_TIMER_COUNTER_MODE_2_ETR2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02_GPIO_LCD Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02.1_GPIO_LCD_EJM2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.5_TIMER_INPUT_CAPTURE Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.2_TIMER_DMA Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.6_TIMER_OUTPUT_COMPARE Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:00_GPIO\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:00_GPIO\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02.1_GPIO_LCD_EJM2\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02_GPIO_LCD\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.2_TIMER_DMA\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04.5_TIMER_INPUT_CAPTURE\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07.2_UART_INTERRUPT\ Debug/activeLaunchMode=run

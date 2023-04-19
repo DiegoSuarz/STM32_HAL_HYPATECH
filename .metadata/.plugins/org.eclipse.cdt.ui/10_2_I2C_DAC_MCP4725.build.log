@@ -1,0 +1,10 @@
+17:39:03 **** Build of configuration Debug for project 10_2_I2C_DAC_MCP4725 ****
+make -j2 all 
+arm-none-eabi-size   10_2_I2C_DAC_MCP4725.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9228	     20	   1652	  10900	   2a94	10_2_I2C_DAC_MCP4725.elf
+Finished building: default.size.stdout
+ 
+
+17:39:04 Build Finished. 0 errors, 0 warnings. (took 1s.145ms)
+

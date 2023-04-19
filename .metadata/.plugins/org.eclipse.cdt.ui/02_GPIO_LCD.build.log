@@ -1,0 +1,10 @@
+19:52:16 **** Build of configuration Debug for project 02_GPIO_LCD ****
+make -j2 all 
+arm-none-eabi-size   02_GPIO_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10260	    120	   1592	  11972	   2ec4	02_GPIO_LCD.elf
+Finished building: default.size.stdout
+ 
+
+19:52:17 Build Finished. 0 errors, 0 warnings. (took 1s.860ms)
+

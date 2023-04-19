@@ -1,0 +1,20 @@
+17:38:37 **** Build of configuration Debug for project 04_TIMERS_TEMPORIZADOR ****
+make -j2 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "04_TIMERS_TEMPORIZADOR.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\OneDrive - Universidad Tecnologica del Peru\Estudios\Cursos\Microcontroladores\STM32\STM32 con HAL\codigo\04_TIMERS\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="04_TIMERS_TEMPORIZADOR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 04_TIMERS_TEMPORIZADOR.elf
+ 
+arm-none-eabi-size   04_TIMERS_TEMPORIZADOR.elf 
+arm-none-eabi-objdump -h -S  04_TIMERS_TEMPORIZADOR.elf  > "04_TIMERS_TEMPORIZADOR.list"
+   text	   data	    bss	    dec	    hex	filename
+   9988	     20	   1708	  11716	   2dc4	04_TIMERS_TEMPORIZADOR.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy  -O ihex  04_TIMERS_TEMPORIZADOR.elf  "04_TIMERS_TEMPORIZADOR.hex"
+Finished building: 04_TIMERS_TEMPORIZADOR.list
+ 
+Finished building: 04_TIMERS_TEMPORIZADOR.hex
+ 
+
+17:38:48 Build Finished. 0 errors, 0 warnings. (took 11s.61ms)
+

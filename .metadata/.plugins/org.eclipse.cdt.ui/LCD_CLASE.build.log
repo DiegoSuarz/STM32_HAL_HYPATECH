@@ -1,0 +1,10 @@
+17:56:32 **** Incremental Build of configuration Debug for project LCD_CLASE ****
+make -j2 all 
+arm-none-eabi-size   LCD_CLASE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22736	    492	   1644	  24872	   6128	LCD_CLASE.elf
+Finished building: default.size.stdout
+ 
+
+17:56:38 Build Finished. 0 errors, 0 warnings. (took 5s.817ms)
+
