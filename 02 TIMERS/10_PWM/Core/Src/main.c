@@ -97,21 +97,51 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  while(dutyCycle < __HAL_TIM_GET_AUTORELOAD(&htim2))
-	  {
-		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, ++dutyCycle);
-//		HAL_Delay(1);
-	  }
+//	  while(dutyCycle < __HAL_TIM_GET_AUTORELOAD(&htim2))
+//	  {
+//		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, ++dutyCycle);
+////		HAL_Delay(10);
+//	  }
+//
+//
+//	  while(dutyCycle > 0)
+//	  {
+//
+//	  	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, --dutyCycle);
+////	  	  HAL_Delay(10);
+//	  }
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000);
+//	  HAL_Delay(1000);
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000*0.8);
+//	 	  HAL_Delay(1000);
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000*0.6);
+//	  HAL_Delay(1000);
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000*0.4);
+//	  HAL_Delay(1000);
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000*0.2);
+//	   HAL_Delay(1000);
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000*0.1);
+//	   HAL_Delay(1000);
+//	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (uint16_t)65000*0);
+//	   HAL_Delay(1000);
 
+	   TIM2->CCR1 = 65000; //acceder al CCR1 (channel 1) del TMR2
+	   HAL_Delay(1000);
 
-	  while(dutyCycle > 0)
-	  {
-	  	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, --dutyCycle);
-//	  	  HAL_Delay(1);
-	  }
+	   TIM2->CCR1 = (uint16_t)(65000*0.8);
+	   HAL_Delay(1000);
 
+	   TIM2->CCR1 = (uint16_t)(65000*0.6);
+	   HAL_Delay(1000);
 
+	   TIM2->CCR1 = (uint16_t)(65000*0.4);
+	   HAL_Delay(1000);
 
+	   TIM2->CCR1 = (uint16_t)(65000*0.2);
+	   HAL_Delay(1000);
+
+	   TIM2->CCR1 = (uint16_t)(65000*0.1);
+	   HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -1,0 +1,10 @@
+21:44:36 **** Incremental Build of configuration Debug for project 11_PWM_DMA ****
+make -j2 all 
+arm-none-eabi-size   11_PWM_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12196	     20	   1820	  14036	   36d4	11_PWM_DMA.elf
+Finished building: default.size.stdout
+ 
+
+21:44:40 Build Finished. 0 errors, 0 warnings. (took 3s.865ms)
+
